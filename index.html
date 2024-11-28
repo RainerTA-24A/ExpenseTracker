@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Closer">
+        <center><h1>Expense Tracker</h1></center> 
+        <h3>Add a new expense:</h3>
+        <center>
+            <h2>Expense:</h2>
+            <input placeholder="Where was the expense made?" id="koht">
+            <div class="Amount">
+                <h2>Date:</h2>
+                <input type="date" id="kuupaev">
+                <h2>Amount:</h2>
+                <input type="number" placeholder="0.00" id="summa"> 
+            </div>
+            <button id="addExpenseButton">Add Expense</button>
+        </center>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Place</th>   
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="expense-table-body">
+            <!-- Expenses will be added here dynamically -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td id="total-amount">$0.00</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

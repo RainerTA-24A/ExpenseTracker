@@ -1,0 +1,88 @@
+body {
+  background-color:antiquewhite;
+  padding: 5px;
+}
+h1  {
+  font-size: 60px;
+  padding: 5px;
+  margin: 5px;
+}
+h2 {
+  font-size: 35px;
+  display: inline-block
+
+}
+
+h3 {
+  font-size: 40px;
+  text-align:center;
+  color:darkolivegreen;
+  padding: 1px;
+  margin: 1px;
+}
+h4 {
+  text-align: center;
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 1px;
+  margin: 1px;
+}
+#koht
+{
+  width: 850px;
+  padding: 10px;
+}
+#kuupaev, #summa
+{
+  width: 350px;
+  padding: 10px;
+}
+.closer
+{
+  padding: 25px;
+
+}
+#addExpenseButton {
+  background-color: green; 
+  color: white;            
+  padding: 10px 20px;
+  border: 2px solid white; 
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;       
+}
+
+#addExpenseButton:hover {
+  background-color: darkgreen; 
+}
+
+table {
+width: 50%;
+border-collapse: collapse;  /*  paneb tabeli äärised kokku, nii et lahtrite vahel ei ole tühikuid. */
+margin: 28px auto;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: rgb(228, 133, 69);
+color: rgb(0, 0, 0);
+}
+
+tfoot td {
+font-weight: bold;
+}
+
+.delete-btn {
+padding: 5px 10px;
+background-color: #f44336;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
